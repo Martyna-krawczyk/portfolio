@@ -1,10 +1,10 @@
 .navbar {
-  height: 100px;
-  background-color: rgba(255, 255, 255, 0);
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.048);
 }
 
 .navbar-link a {
-  color: var(--spanish-grey-dark);
+  color: black;
   text-decoration: none;
   padding: 0px 7px;
   font-size: 20px; 
@@ -16,10 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   float: right;
-  /* text-decoration: none; */
-  /* color: var(--light-coral); */
   font-size: 30px;
 }
 
@@ -29,21 +26,9 @@ display: flex;
 float: left;
 justify-content: center;
 align-items: center;
-color: white;
-}
-
-.logo {
- color: var(--light-coral);
- font-size: 70px;
-
+/* color: white; */
 }
 
 .navbar-link a:hover {
   transform: scale 1.1;
-}
-
-#name {
-  font-family: 'Pacifico', cursive;
-  color: var(--light-coral);
-  font-size: 70px;
 }

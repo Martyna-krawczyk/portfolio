@@ -1,0 +1,8 @@
+.container1 {
+  height: 700px;
+  width: 100vw;
+  background-image:  linear-gradient(-225deg, var(--razzmic-berry-trans) 0%, var(--spanish-grey-trans) 50%), url("../media/headshot.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
