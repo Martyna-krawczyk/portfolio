@@ -18,6 +18,7 @@
   align-items: center;
   float: right;
   font-size: 30px;
+  margin-right: 15px;
 }
 
 .navbar-logo {
@@ -26,7 +27,7 @@ display: flex;
 float: left;
 justify-content: center;
 align-items: center;
-/* color: white; */
+margin-left: 15px;
 }
 
 .navbar-link a:hover {

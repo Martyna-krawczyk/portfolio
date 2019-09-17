@@ -9,56 +9,64 @@
 .card {
   width: 25%;
 }
+.card-wide {
+  width: 37.5%;
+}
 
 .card-content {
-  height:250px;
-  border: 1px solid var(--spanish-grey);
+  height:150px;
+  /* border: 1px solid var(--spanish-grey); */
   margin: 10px;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.icon1 {
-  height: 70%;
-  font-size: 120px;
-  display: flex;
-  color: var(--razzmic-berry);
+#card1 {
+  background-color: var(--razzmic-berry);
 }
 
-.icon2 {
-  height: 70%;
-  font-size: 120px;
-  display: flex;
-  color: var(--rocket-metallic);
+#card2 {
+  background-color: var(--rocket-metallic);
 }
 
-.icon3 {
-  height: 70%;
-  font-size: 120px;
-  display: flex;
-  color: var(--spanish-grey);
+#card3 {
+  background-color: var(--spanish-grey);
 }
 
-.card-content h4 {
+#card4 {
+  background-color: var(--light-coral);
+}
+
+#card4 {
+  background-color: var(--light-coral);
+}
+#card5 {
+  background-color: var(--sage);
+}
+
+.card-content p {
   margin: 1px 0px;
 }
 
-.card-content h1 {
-  margin: 150px 0px;
-}
 
 /* tablet design */
 @media only screen and (max-width: 800px) {
   .card {
     width: 50%;
   }
+  .card-wide {
+    width: 50%;
+  }
   }
   /* mobile design */
   @media only screen and (max-width: 500px) {
     .card {
+      width: 100%;
+    }
+    .card-wide {
       width: 100%;
     }
     }

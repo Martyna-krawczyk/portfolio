@@ -1,19 +1,17 @@
 
   .hero-container h1 {
-    /* font-family: 'Gloria Hallelujah', cursive; */
+    font-family: 'Gloria Hallelujah', cursive;
     color: black;
-    font-size: 45px;
+    font-size: 65px;
     /* text-shadow:4px 4px rgba(0, 0, 0, 0.178); */
     text-align: left;
-    margin-left: 160px;
+    margin-left: 90px;
     padding-top: 150px;
   }
 
-  .hero-container h3 {
-    /* font-family: 'Gloria Hallelujah', cursive; */
+  .hero-container p {
     color: black;
     font-size: 25px;
-    /* text-shadow:4px 4px rgba(0, 0, 0, 0.178); */
     text-align: left;
     margin-left: 150px;
     padding-top: 15px;
