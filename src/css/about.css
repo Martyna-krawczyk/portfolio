@@ -123,13 +123,13 @@ h1 {
   font-size: 60px;
 }
 
-  @media (max-width: 1000px;) {
+  @media (max-width: 1000px) {
     .timeline {
       width: 100%;
     }
   }
 
-  @media (max-width: 500px;) {
+  @media (max-width: 500px) {
     h1 {
       text-align: center;
       font-size: 40px;
