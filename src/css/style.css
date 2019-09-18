@@ -6,6 +6,8 @@
 @import "./dashboard.css";
 @import "./container.css";
 @import "./socials.css";
+@import "./portfolio-cards.css";
+@import "./contact-form.css";
 
 :root {
 --shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
