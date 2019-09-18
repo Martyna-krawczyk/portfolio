@@ -1,6 +1,6 @@
 .footer {
   height: 70px;
-  background-color:var(--light-coral);
+  background-color: var(--dark-grey);
 }
 
 .footer-link {
@@ -26,15 +26,14 @@
 }
 
 .footer-tagline > p {
-  margin: 0px;
-  padding: 0px;
-
+  margin-top: 20px;
 } 
 
 .heart-logo {
-  color: red;
+  color: var(--light-coral);
   font-size: 15px;
 }
 .heart-logo:hover {
   transform: scale(1.5);
 }
+

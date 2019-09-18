@@ -15,13 +15,28 @@
 
 .card-content {
   height:150px;
-  /* border: 1px solid var(--spanish-grey); */
   margin: 10px;
-  /* box-sizing: border-box; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  -webkit-box-shadow: 2px 2px 23px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 2px 2px 23px 0px rgba(0,0,0,0.18);
+  box-shadow: 2px 2px 23px 0px rgba(0,0,0,0.18);
+}
+
+.card-content:hover {
+  transform: scale(1.1);
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-wide a {
+  text-decoration: none;
+  color: black;
 }
 
 #card1 {
@@ -69,4 +84,13 @@
     .card-wide {
       width: 100%;
     }
+    }
+
+    .info {
+      text-align: center
+    }
+
+    .info h1 {
+      font-family: 'Gloria Hallelujah', cursive;
+      font-size: 65px;
     }

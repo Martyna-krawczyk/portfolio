@@ -1,6 +1,7 @@
 .socials {
-  height: 120px;
-  background-color: var(--green);
+  height: 100px;
+  background-color: var(--green-trans2);
+  text-decoration: none;
 }
 
 .socials-links {
@@ -12,10 +13,14 @@
 }
 
 .socials-link {
-  color: white;
+  color: var(--light-coral);
   font-size: 35px;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.socials-link a { 
+  color: var(--light-coral); 
 }
