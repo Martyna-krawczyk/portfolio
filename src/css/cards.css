@@ -87,7 +87,9 @@
     }
 
     .info {
-      text-align: center
+      text-align: center;
+      margin-left: 150px;
+      margin-right: 150px;
     }
 
     .info h1 {
