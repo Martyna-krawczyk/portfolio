@@ -45,11 +45,6 @@ margin-left: 15px;
   background: var(--light-coral);
   margin-left: -150px;
   position: absolute;
-  /* width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px; */
-  list-style-type: none;
   padding: 50px;
 }
 
@@ -59,10 +54,23 @@ margin-left: 15px;
   font-size: 25px;
 }
 
+.menu li {
+  padding: 0 10px 0 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0 0 3px 0;
+}
+
 #button {
   display: none;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+#button a {
+  margin-bottom: 10px;
 }
 
 #button label span {
