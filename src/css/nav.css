@@ -15,10 +15,11 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   float: right;
   font-size: 30px;
   margin-right: 15px;
+  margin-top: 15px;
 }
 
 .navbar-logo {
@@ -34,8 +35,58 @@ margin-left: 15px;
   transform: scale 1.1;
 }
 
+.ham {
+  display: none;
+  font-size: 25px;
+}
+
+.menu {
+  display: none;
+  background: var(--light-coral);
+  margin-left: -150px;
+  position: absolute;
+  /* width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px; */
+  list-style-type: none;
+  padding: 50px;
+}
+
+.menu a
+{
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+#button {
+  display: none;
+  height: 30px;
+  width: 30px;
+}
+
+#button label span {
+  display: block;
+}
+
+#button input:checked + span + .menu {
+  display: block;
+}
+
+#button label input {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
-  .navbar-logo {
+  .navbar-links {
     display: none;
   }
+
+  #button{ 
+    display: block; 
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+  }
 }
+
