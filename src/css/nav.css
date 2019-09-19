@@ -33,3 +33,9 @@ margin-left: 15px;
 .navbar-link a:hover {
   transform: scale 1.1;
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar-logo {
+    display: none;
+  }
+}
