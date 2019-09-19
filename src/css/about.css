@@ -8,6 +8,32 @@ body {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 55px;
 }
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.resume-button {
+  width: 200px;
+  border-radius: 7%;
+  background: var(--spanish-grey);
+  padding:10px 0px;
+  text-align: center;
+  margin: 10px;
+  color: white;
+  border-radius: 18px;
+}
+
+.resume-button:hover {
+  background: var(--light-coral);
+  -webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
 .timeline {
   position: relative;
   margin: 50px auto;
@@ -126,6 +152,7 @@ h1 {
   text-align: center;
   font-size: 60px;
 }
+
 
   @media (max-width: 1000px) {
     .timeline {
