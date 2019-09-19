@@ -4,6 +4,10 @@ body {
   padding:0;
 }
 
+.info h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 55px;
+}
 .timeline {
   position: relative;
   margin: 50px auto;
@@ -134,13 +138,16 @@ h1 {
       text-align: center;
       font-size: 40px;
     }
+
     .timeline {
       width: 100%;
       padding-bottom: 0;
     }
+
     .timeline:before{
       left: 20px;
     }
+
     .timeline ul li:nth-child(odd),
     .timeline ul li:nth-child(even) {
       width: 100%;
@@ -148,13 +155,15 @@ h1 {
       padding-left: 50px;
       padding-bottom: 50px;
     }
+
     .timeline ul li:nth-child(odd):before,
     .timeline ul li:nth-child(even):before {
       top: -18px;
       left: 16px;
     }
-    .timeline ul li:nth-child(odd).time,
-    .timeline ul li:nth-child(even).time {
+
+    .timeline ul li:nth-child(odd) .time,
+    .timeline ul li:nth-child(even) .time {
       top: -30px;
       left: 50px;
       right: inherit;

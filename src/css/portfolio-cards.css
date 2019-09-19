@@ -51,8 +51,24 @@
   display: flex;
 }
 
+.icon4 {
+  /* height: 70%; */
+  width: 100%;
+  font-size: 120px;
+  display: flex;
+}
+
+.icon5 {
+  /* height: 70%; */
+  width: 100%;
+  font-size: 120px;
+  display: flex;
+}
+
 .card-content2 h4 {
   margin: 1px 0px;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: var(--light-coral);
 }
 
 .card-content2 h1 {
@@ -77,14 +93,15 @@
 }
 
 /* tablet design */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .card2 {
     width: 50%;
   }
   }
-  /* mobile design */
+/* mobile design */
   @media only screen and (max-width: 500px) {
     .card2 {
-      width: 100%;
+      width: 80%;
+      padding-bottom: 10px;
     }
-    } 
+    }

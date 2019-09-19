@@ -1,0 +1,69 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: black;
+  font-size: 55px;
+}
+
+.blog-items {
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.blog-card {
+  height:300px;
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: right;
+  background-color: var(--green-trans2);
+  -webkit-box-shadow: 2px 2px 23px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 2px 2px 23px 0px rgba(0,0,0,0.18);
+  box-shadow: 2px 2px 23px 0px rgba(0,0,0,0.18);
+}
+
+.description h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: black;
+  font-size: 35px;
+  text-align: right;
+}
+
+.alt h1 {
+  text-align: left;
+}
+
+.alt p {
+  text-align: left;
+}
+
+.meta {
+
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 20px;
+  }
+  #copy {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 10px;
+  }
+  #copy {
+    display: none;
+  }
+}
