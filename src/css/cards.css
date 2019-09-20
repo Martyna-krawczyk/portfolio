@@ -25,9 +25,9 @@
   box-shadow: 2px 2px 23px 0px rgba(0,0,0,0.18);
 }
 
-.card-content p {
+.card-content h2 {
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .card-content:hover {

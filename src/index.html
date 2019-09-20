@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,103 +9,122 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
   <title>MK-Portfolio</title>
 </head>
+
 <body>
-  <div class="container1">
-      <div class="navbar-links">
+  <header>
+    <div class="container1">
+      <nav>
+        <div class="navbar-links">
           <div class="navbar-link"><a href="./about.html">ABOUT</a></div>
           <div class="navbar-link"> <a href="./portfolio.html">PORTFOLIO</a></div>
           <div class="navbar-link"> <a href="./contact.html">CONTACT</a></div>
           <div class="navbar-link"> <a href="./blog.html">BLOG</a></div>
         </div>
-  <div class="navbar">
-      <div class="navbar-logo">
-          <a href="./index.html"><img src="./media/MK.png" alt="logo image"></a> 
-      </div>
-      <div id="button">
+      </nav>
+      <div class="navbar">
+        <div class="navbar-logo">
+          <a href="./index.html"><img src="./media/MK.png" alt="logo image"></a>
+        </div>
+        <div id="button">
           <label>
             <input type="checkbox" value="1"><span class="fas fa-bars ham"></span>
-            <div class="menu">
+            <!-- I am aware that containing a div within a label violates the standards, however I have chosen to use this convention for the functionality of the hamburger menu. -->
+            <div class="menu"> 
               <ul>
-                <a class="navbar-link" href="./about.html"><li>ABOUT</li></a>
-                <a class="navbar-link" href="./portfolio.html"><li>PORTFOLIO</li></a>
-                <a class="navbar-link" href="./contact.html"><li>CONTACT</li></a>
-                <a class="navbar-link" href="./blog.html"><li>BLOG</li></a> 
-                 
+                <a class="navbar-link" href="./about.html">
+                  <li>ABOUT</li>
+                </a>
+                <a class="navbar-link" href="./portfolio.html">
+                  <li>PORTFOLIO</li>
+                </a>
+                <a class="navbar-link" href="./contact.html">
+                  <li>CONTACT</li>
+                </a>
+                <a class="navbar-link" href="./blog.html">
+                  <li>BLOG</li>
+                </a>
+
               </ul>
             </div>
           </label>
         </div>
-    </div>
+      </div>
       <div class="hero-container">
         <h1>Martyna Krawczyk</h1>
         <p>DEVELOPER IN TRAINING</p>
       </div>
-  </div>
-</div>
-<div class="socials">
+    </div>
+  </header>
+  <div class="socials">
     <div class="socials-links">
       <div class="socials-link">
-        <a href="https://twitter.com/MartynaKrawcz"><i class="fab fa-twitter"></i></a>
-    </div>
-    <div class="socials-link">
-        <a href="https://www.linkedin.com/in/martyna-krawczyk-920448a2/"><i class="fab fa-linkedin-in"></i></a>
-    </div>
-    <div class="socials-link">
-        <a href="https://github.com/Martyna-krawczyk"><i class="fab fa-github"></i></a>
-    </div>
+        <a href="https://twitter.com/MartynaKrawcz"><i title="This link goes to my Twitter page"
+            class="fab fa-twitter"></i></a>
+      </div>
+      <div class="socials-link">
+        <a href="https://www.linkedin.com/in/martyna-krawczyk-920448a2/"><i title="This link goes to my LinkedIn page" class="fab fa-linkedin-in"></i></a>
+      </div>
+      <div class="socials-link">
+        <a href="https://github.com/Martyna-krawczyk"><i title="This link goes to my Github page" class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
-  <div class="info">
-    <h1>Intro</h1>
-    <p>I'm a full stack developer in training, learning Ruby, CSS, HTML, Ruby on Rails and the JavaScript MERN stack (MongoDB, Express, React, Node.js)</p>
-  </div>
-<div class="container">
+  <main>
+    <div class="info">
+      <h1>Intro</h1>
+      <p>I'm a full stack developer in training, learning Ruby, CSS, HTML, Ruby on Rails and the JavaScript MERN stack
+        (MongoDB, Express, React, Node.js)</p>
+    </div>
+  </main>
+  <div class="container">
     <div class="card">
-        <a href="./portfolio.html">
-          <div class="card-content" id="card1">
-            <p>PORTFOLIO</p>
-          </div>
-        </a>
+      <a href="./portfolio.html">
+        <div class="card-content" id="card1">
+          <h2>PORTFOLIO</h2>
+        </div>
+      </a>
     </div>
     <div class="card">
       <a href="./about.html">
         <div class="card-content" id="card2">
-          <p>RESUME</p>
+          <h2>RESUME</h2>
         </div>
       </a>
     </div>
     <div class="card">
       <a href="./about.html">
         <div class="card-content" id="card3">
-          <p>ABOUT</p>
+          <h2>ABOUT</h2>
         </div>
       </a>
     </div>
     <div class="card-wide">
-        <a href="./blog.html">
-          <div class="card-content" id="card4">
-            <p>BLOG</p>
-          </div>
-          </a>
+      <a href="./blog.html">
+        <div class="card-content" id="card4">
+          <h2>BLOG</h2>
+        </div>
+      </a>
     </div>
     <div class="card-wide">
       <a href="./contact.html">
         <div class="card-content" id="card5">
-            <p>CONTACT</p>
+          <h2>CONTACT</h2>
         </div>
       </a>
     </div>
   </div>
-
   <div class="footer">
-  <div class="footer-links">
-    <div class="footer-link">
-        <a href="./index.html"><img src="./media/MKdark.png" alt="logo image"></a> 
-    </div>
-  </div>
-  <div class="footer-tagline">
-    <p>Made with <i class="fas fa-heart heart-logo"></i> &copy; Martyna Krawczyk 2019</p>
-  </div>
+    <footer>
+      <div class="footer-links">
+        <div class="footer-link">
+          <a href="./index.html"><img src="./media/MKdark.png" alt="logo image"></a>
+        </div>
+      </div>
+      <div class="footer-tagline">
+        <p>Made with <i class="fas fa-heart heart-logo"></i> &copy; Martyna Krawczyk 2019</p>
+      </div>
+    </footer>
   </div>
 </body>
+
 </html>

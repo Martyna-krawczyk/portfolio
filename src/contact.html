@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,85 +9,93 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
   <title>MK-Portfolio</title>
 </head>
+
 <body>
   <div class="container1">
-      <div class="navbar-links">
-          <div class="navbar-link"><a href="./about.html">ABOUT</a></div>
-          <div class="navbar-link"> <a href="./portfolio.html">PORTFOLIO</a></div>
-          <div class="navbar-link"> <a href="./contact.html">CONTACT</a></div>
-          <div class="navbar-link"> <a href="./blog.html">BLOG</a></div>
-        </div>
-  <div class="navbar">
+    <div class="navbar-links">
+      <div class="navbar-link"><a href="./about.html">ABOUT</a></div>
+      <div class="navbar-link"> <a href="./portfolio.html">PORTFOLIO</a></div>
+      <div class="navbar-link"> <a href="./contact.html">CONTACT</a></div>
+      <div class="navbar-link"> <a href="./blog.html">BLOG</a></div>
+    </div>
+    <div class="navbar">
       <div class="navbar-logo">
-          <a href="./index.html"><img src="./media/MK.png" alt="logo image"></a> 
+        <a href="./index.html"><img src="./media/MK.png" alt="logo image"></a>
       </div>
       <div id="button">
-          <label>
-            <input type="checkbox" value="1"><span class="fas fa-bars ham"></span>
-            <div class="menu">
-              <ul>
-                <a class="navbar-link" href="./about.html"><li>ABOUT</li></a>
-                <a class="navbar-link" href="./portfolio.html"><li>PORTFOLIO</li></a>
-                <a class="navbar-link" href="./contact.html"><li>CONTACT</li></a>
-                <a class="navbar-link" href="./blog.html"><li>BLOG</li></a> 
-              </ul>
-            </div>
-          </label>
-        </div>
-    </div>
-      <div class="hero-container">
-        <h1>Contact</h1>
+        <label>
+          <input type="checkbox" value="1"><span class="fas fa-bars ham"></span>
+          <!-- I am aware that containing a div within a label violates the standards, however I have chosen to use this convention for the functionality of the hamburger menu. -->
+          <div class="menu">
+            <ul>
+              <a class="navbar-link" href="./about.html">
+                <li>ABOUT</li>
+              </a>
+              <a class="navbar-link" href="./portfolio.html">
+                <li>PORTFOLIO</li>
+              </a>
+              <a class="navbar-link" href="./contact.html">
+                <li>CONTACT</li>
+              </a>
+              <a class="navbar-link" href="./blog.html">
+                <li>BLOG</li>
+              </a>
+            </ul>
+          </div>
+        </label>
       </div>
+    </div>
+    <div class="hero-container">
+      <h1>Contact</h1>
+    </div>
   </div>
-</div>
-<div class="socials">
+  <div class="socials">
     <div class="socials-links">
       <div class="socials-link">
         <a href="https://twitter.com/MartynaKrawcz"><i class="fab fa-twitter"></i></a>
-    </div>
-    <div class="socials-link">
+      </div>
+      <div class="socials-link">
         <a href="https://www.linkedin.com/in/martyna-krawczyk-920448a2/"><i class="fab fa-linkedin-in"></i></a>
-    </div>
-    <div class="socials-link">
+      </div>
+      <div class="socials-link">
         <a href="https://github.com/Martyna-krawczyk"><i class="fab fa-github"></i></a>
-    </div>
+      </div>
     </div>
   </div>
   <div class="info">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt et tenetur reprehenderit esse! Non inventore aliquid facere minima laudantium natus, iure tempore similique modi dolore sit eum exercitationem consectetur vel?</p>
   </div>
-<div class="container3"> 
-  <div class="form-container">
-    <form id="contact" action="https://formspree.io/martynakraw@gmail.com" method="post">
-      <h3>Get in touch</h3>
-      <fieldset>
-        <input placeholder="Your name" type="text" name="name" tabindex="1" required autofocus>
-      </fieldset>
-      <fieldset>
-        <input placeholder="Your Email Address" type="email" name="_replyto" tabindex="2" required>
-      </fieldset>
-      <fieldset>
-        <input placeholder="Your Phone Number" type="tel" name="contact" tabindex="3" required>
-      </fieldset>
-      <fieldset>
-        <textarea placeholder="Type your Message Here...." name="message" tabindex="4" required></textarea>
-      </fieldset>
-      <fieldset>
-        <button name="submit" type="submit" value="Send" id="contact-submit" data-submit="...Sending">Submit</button>
-      </fieldset>
-    </form>
-  </div>
-</div>
-</div>
-  <div class="footer">
-  <div class="footer-links">
-    <div class="footer-link">
-        <a href="./index.html"><img src="./media/MKdark.png" alt="logo image"></a> 
+  <div class="container3">
+    <div class="form-container">
+      <form id="contact" action="https://formspree.io/martynakraw@gmail.com" method="post">
+        <h3>Get in touch</h3>
+        <fieldset>
+          <input placeholder="Your name" type="text" name="name" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Email Address" type="email" name="_replyto" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Phone Number" type="tel" name="contact" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Type your Message Here...." name="message" tabindex="4" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" value="Send" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+      </form>
     </div>
   </div>
-  <div class="footer-tagline">
-    <p>Made with <i class="fas fa-heart heart-logo"></i> &copy; Martyna Krawczyk 2019</p>
-  </div>
+  <div class="footer">
+    <div class="footer-links">
+      <div class="footer-link">
+        <a href="./index.html"><img src="./media/MKdark.png" alt="logo image"></a>
+      </div>
+    </div>
+    <div class="footer-tagline">
+      <p>Made with <i class="fas fa-heart heart-logo"></i> &copy; Martyna Krawczyk 2019</p>
+    </div>
   </div>
 </body>
+
 </html>
