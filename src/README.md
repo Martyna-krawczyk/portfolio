@@ -27,7 +27,7 @@ The website is composed of the five below pages:
 5. Blog
 
 ## Sitemap
-![sitemap](docs/sitemap.png)
+[sitemap](https://drive.google.com/file/d/1jnuNX-BoirilCbV3VpF_eBpN6T8EpLd4/view?usp=sharing)
 
 In order of appearance, please find some of the pages' functionalities below:
 
@@ -60,13 +60,13 @@ The nav bar at the top of each page was particularly challenging as it was clear
 ![Wide-screen menu](docs/navbar-wide.png)
 
 ## Axe
-![Accessibility](docs/requirements to safisfy Axe.png)
+![Accessibility](docs/requirements-to-safisfy-axe.png)
 
 ## HTML Validation
 ![HTML Error validation](docs/html-validator-error.png)
 
 ## Design Variations
-![Version1](docs/v1.png)
+![Screenshot of version one](docs/v1.png)
 ![Version2](docs/v2.png)
 ![Version3](docs/v3.png)
 
