@@ -27,8 +27,7 @@ The website is composed of the five below pages:
 5. Blog
 
 ## Sitemap
-![Sitemap](docs/sitemap.pdf)
-
+![Sitemap](docs/sitemap.png)
 
 In order of appearance, please find some of the pages' functionalities below:
 
