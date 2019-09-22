@@ -74,9 +74,11 @@ Because of the hamburge menu, the html validator was not happy that the menu div
 ## Design Variations
 There are three variations to the overall design and the three different 'looks' can be accessed via the below links:
 
-[Screenshot of version one](docs/V1.png)
-[Version2](docs/V2.png)
-[Version3](docs/V3.png)
+[Screenshot of version one](https://drive.google.com/file/d/1l2W9xMKOWPqaHiI62AOR-taiqon_I6jz/view?usp=sharing)
+
+[Screenshot of version two](https://drive.google.com/file/d/1jAV7926U-Jw8_mYLgWgqW2gbCKOgxe5W/view?usp=sharing)
+
+[Screenshot of version three](https://drive.google.com/file/d/1zGLdx6SC1ClUBW8_7xquP_n3GBilzlL1/view?usp=sharing)
 
 
 
