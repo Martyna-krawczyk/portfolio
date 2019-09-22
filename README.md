@@ -60,18 +60,23 @@ The nav bar at the top of each page was particularly challenging as it was clear
 
 ### Responsive Navigation Screenshots
 [Hamburger Menu](https://drive.google.com/file/d/1kJxc_YcyHjaWVWyusd1hB73MGP10BU9Y/view?usp=sharing)
+
 [Wide-screen menu](https://drive.google.com/file/d/16O02ICHxDVESKw-CUtRE90ChlJzAYvXw/view?usp=sharing)
 
-## Axe
+## Axe - Accessibility
+I ran the website through the aXe accessibility extension and was able to follow the recommendations on the home page to satisfy the requirements.  The extension required that I added a title tag to all links which didn't contain any text, therefore I added these as well as adding the <main> tag to the page. AXe also recommended that I consider the h1 and p text being used over a background image to ensure that there was sufficient contrast asd it couldn't 'see' what the background image colours were.  Please see the screenshot using the link below:
 ![Accessibility](docs/requirements-to-safisfy-axe.png)
 
 ## HTML Validation
-![HTML Error validation](docs/html-validator-error.png)
+Because of the hamburge menu, the html validator was not happy that the menu div was within a child, label. It was the only outstanding error, however I decided to leave it as is in order to remain functional to the user.
+[HTML Error validation](https://drive.google.com/file/d/1hjxqSxi_8Q-iRlqihrjO4DtAbFsGa-kV/view?usp=sharing)
 
 ## Design Variations
-![Screenshot of version one](docs/v1.png)
-![Version2](docs/v2.png)
-![Version3](docs/v3.png)
+There are three variations to the overall design and the three different 'looks' can be accessed via the below links:
+
+[Screenshot of version one](docs/V1.png)
+[Version2](docs/V2.png)
+[Version3](docs/V3.png)
 
 
 
