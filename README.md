@@ -18,6 +18,8 @@ This portfolio website has been created to consolidate access to web and program
 - CSS
 - Netlify
 - Formspree
+- Google Fonts
+- Font Awesome
 
 ### Features
 Most pages of the website display a header with a background image, with the exception of the Blog.  All pages also include a navigation bar, social links block as well as footer which I will describe in more detail below:
@@ -66,10 +68,11 @@ The nav bar at the top of each page was particularly challenging as it was clear
 ## Axe - Accessibility
 I ran the website through the aXe accessibility extension and was able to follow the recommendations on the home page to satisfy the requirements.  The extension required that I added a title tag to all links which didn't contain any text, therefore I added these as well as adding the <main> tag to the page. AXe also recommended that I consider the h1 and p text being used over a background image to ensure that there was sufficient contrast asd it couldn't 'see' what the background image colours were.  Please see the screenshot using the link below:
 ![Accessibility](docs/requirements-to-safisfy-axe.png)
+[aXe recommendations](https://drive.google.com/file/d/1hjxqSxi_8Q-iRlqihrjO4DtAbFsGa-kV/view?usp=sharing)
 
 ## HTML Validation
 Because of the hamburge menu, the html validator was not happy that the menu div was within a child, label. It was the only outstanding error, however I decided to leave it as is in order to remain functional to the user.
-[HTML Error validation](https://drive.google.com/file/d/1hjxqSxi_8Q-iRlqihrjO4DtAbFsGa-kV/view?usp=sharing)
+
 
 ## Design Variations
 There are three variations to the overall design and the three different 'looks' can be accessed via the below links:
@@ -80,6 +83,9 @@ There are three variations to the overall design and the three different 'looks'
 
 [Screenshot of version three](https://drive.google.com/file/d/1zGLdx6SC1ClUBW8_7xquP_n3GBilzlL1/view?usp=sharing)
 
+## Challenges
+Whilst pushing the README markdown file to Github, some of the changes to file names in docs meant that the png / jpg files didn't appear, therefore, many links here are to google drive.  
 
+I would like to thank my fellow classmates, who came to my aid on the day of submission (a Sunday), to help me try to fix this problem.  We couldn't get it there, but I'm grateful for them giving up their time to help me.
 
 
